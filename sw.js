@@ -9,7 +9,8 @@ let urlsToCache = [
     './assets/images/logo/logo128x128.png',
     './assets/images/logo/logo72x72.png',
     './index.html',
-    './info.html'
+    './info.html',
+    './assets/images/n02092339_7210.jpg'
 ];
 
 self.addEventListener('install', function(event){

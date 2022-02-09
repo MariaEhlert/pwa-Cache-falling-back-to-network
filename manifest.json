@@ -1,6 +1,6 @@
 {
     "name": "hent et hunde billede",
-    "short_name": "hent en hund",
+    "short_name": "hunde billeder",
     "description": "find en hund ... finder en hund",
     "start_url": "./index.html",
     "scope": "./",
