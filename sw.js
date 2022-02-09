@@ -23,6 +23,13 @@ self.addEventListener('install', function(event){
     );
 });
 
+// Cache, falling back to network
+
+// at bygge offline-først. I sådanne tilfælde er det sådan, du vil håndtere de fleste anmodninger. 
+// Andre mønstre vil være undtagelser baseret på den indkommende anmodning.
+
+// Dette giver dig "kun cache"-adfærd for ting i cachen og "kun netværk"-adfærd for alt, der ikke er cachelagret 
+// (hvilket inkluderer alle ikke-GET-anmodninger, da de ikke kan cachelagres).
 self.addEventListener('fetch', function (event) {
     event.respondWith(
       caches.match(event.request).then(function (response) {
