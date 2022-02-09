@@ -1,0 +1,74 @@
+{
+    "name": "hent en hund",
+    "short_name": "hent en hund",
+    "description": "find en hund ... finder en hund",
+    "start_url": "./index.html",
+    "scope": "./",
+    "background_color": "#ffffff",
+    "theme_color":"#ffffff",
+    "display": "standalone",
+
+    "icons": [
+        {
+            "src": "./assets/images/logo/logo521x521.png",
+            "sizes": "521x521",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/images/logo/logo256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"  
+        },
+        {
+            "src": "./assets/images/logo/logo192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"  
+        },
+        {
+            "src": "./assets/images/logo/logo128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"  
+        },
+        {
+            "src": "./assets/images/logo/logo72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"  
+        }
+    ],
+
+    "shortcuts": [
+        {
+            "name": "info",
+            "short_name": "info",
+            "description": "om min hund",
+            "url": "./info.html",
+            "icons":[
+                {
+                    "src": "./assets/images/logo/logo521x521.png",
+                    "sizes": "521x521",
+                    "type": "image/png"
+                },
+                {
+                    "src": "./assets/images/logo/logo256x256.png",
+                    "sizes": "256x256",
+                    "type": "image/png"  
+                },
+                {
+                    "src": "./assets/images/logo/logo192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"  
+                },
+                {
+                    "src": "./assets/images/logo/logo128x128.png",
+                    "sizes": "128x128",
+                    "type": "image/png"  
+                },
+                {
+                    "src": "./assets/images/logo/logo72x72.png",
+                    "sizes": "72x72",
+                    "type": "image/png"  
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(233, 150, 122, 0.308);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    h1{
+        text-align: center;
+        font-size: 7vw;
+    }
+}
+.indexContainer{
+    padding-bottom: 1%;
+    img{
+        width: 100%;
+        padding-top: 1%;
+    }
+    button{
+        margin: auto;
+        display: block;
+    }
+}
+.infoContainer{
+    padding-bottom: 1%;
+    h2{
+        font-size: 5.5vw;
+    }
+    article{
+        border: solid 1px black;
+        p{
+            padding: 2%;
+            font-size: 5vw;
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: darksalmon;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 6vw;
+        &:hover{
+            color: white;
+        }
+        &:focus{
+            color: white;
+        }
+    }
+}
