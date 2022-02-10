@@ -42,6 +42,7 @@ header h1 {
 
 .infoContainer h2 {
   font-size: 5.5vw;
+  margin-left: 10%;
 }
 
 .infoContainer figure {
