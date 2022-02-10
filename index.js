@@ -19,6 +19,7 @@ fetch('https://dog.ceo/api/breeds/image/random/1')
     }))
 })
 .catch(err => {
+    window.location.href = "https://mariaehlert.github.io/pwa-Cache-falling-back-to-network/info.html";
     //indhold ved offline (i stedet for api billeder)
     const wrapper = document.querySelector('.dogImage');
     const offline = document.createElement('h2');

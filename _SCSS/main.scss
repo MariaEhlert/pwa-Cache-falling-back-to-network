@@ -33,11 +33,15 @@ header{
     h2{
         font-size: 5.5vw;
     }
-    article{
+    figure{
         border: solid 1px black;
         p{
             padding: 2%;
             font-size: 5vw;
+        }
+        figcaption{
+            display: flex;
+            justify-content: end;
         }
     }
 }

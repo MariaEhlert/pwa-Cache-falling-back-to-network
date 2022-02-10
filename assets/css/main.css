@@ -44,13 +44,22 @@ header h1 {
   font-size: 5.5vw;
 }
 
-.infoContainer article {
+.infoContainer figure {
   border: solid 1px black;
 }
 
-.infoContainer article p {
+.infoContainer figure p {
   padding: 2%;
   font-size: 5vw;
+}
+
+.infoContainer figure figcaption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 footer {
